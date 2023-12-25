@@ -1,5 +1,5 @@
 # Game-rank
-a simple game rank backend based on Flask
+A simple game rank backend based on Flask.
 
 ## APIs
 

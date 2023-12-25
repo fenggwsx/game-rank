@@ -2,9 +2,6 @@ from flask import Flask
 from flask_restful import reqparse, Resource, Api
 import sqlite3
 
-app = Flask(__name__)
-api = Api(app)
-
 parser = reqparse.RequestParser()
 parser.add_argument("username", type=str, required=True)
 parser.add_argument("time", type=float, required=True)
@@ -73,7 +70,10 @@ class Rank(Resource):
         con.close()
         return {"code": 1, "message": "success", "data": None}
 
+app = Flask(__name__)
+api = Api(app)
+api.add_resource(Rank, "/rank/<checkpoint>")
+
 if __name__ == "__main__":
-    api.add_resource(Rank, "/rank/<checkpoint>")
     app.run()
 

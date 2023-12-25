@@ -4,10 +4,10 @@ A simple game rank backend based on Flask and Sqlite3.
 
 ## How to Use
 
-- \[Optional\] Create a python virtual environment.
+- Create a python virtual environment \[Optional\]
 - Install Python3 and Sqlite3 if not installed
 - Change your directory to this project
-- \[Optional\] Activate the virtual environment if you have prepared one
+- Activate the virtual environment if you have prepared one \[Optional\]
 - Install these packages: `flask`, `flask_restful`, `gunicorn`
 - Execute this command: `gunicorn app:app`
 - Enjoy the backend!

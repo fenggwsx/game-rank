@@ -9,6 +9,7 @@ A simple game rank backend based on Flask and Sqlite3.
 - Change your directory to this project
 - Activate the virtual environment if you have prepared one \[Optional\]
 - Install these packages: `flask`, `flask_restful`, `gunicorn`
+- Copy `template.db` to `database.db` or create `database.db` by `template.sql`
 - Execute this command: `gunicorn app:app`
 - Enjoy the backend!
 

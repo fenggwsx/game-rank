@@ -7,7 +7,7 @@ a simple game rank backend based on Flask
 
 - Request URL
 
-> /rank/<checkpoint>
+> /rank/\<checkpoint\>
 
 - Request Method
 
@@ -25,7 +25,7 @@ a simple game rank backend based on Flask
 
 - Request URL
 
-> /rank/<checkpoint>
+> /rank/\<checkpoint\>
 
 - Request Method
 
